@@ -5,7 +5,7 @@
 }
 
 :root {
-  --text-color: 
+  --text-color: ;
 }
 
 body {
@@ -17,17 +17,13 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-image: url("../images/background.jpg")
-  
-  
-  
+  background-image: url("../images/background.jpg");
 }
 
 header h1 a {
   text-decoration: none;
   float: right;
 }
-
 
 .navigation {
   flex-wrap: wrap;
