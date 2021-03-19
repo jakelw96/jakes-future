@@ -4,3 +4,32 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Header section*/
+header {
+  padding: 100px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url("../images/background.jpg")
+  
+  
+  
+}
+
+header h1 a {
+  text-decoration: none;
+  float: right;
+}
+
+
+.navigation {
+  flex-wrap: wrap;
+  color: yellow;
+}
