@@ -5,16 +5,30 @@
 }
 
 :root {
-  --text-color: ;
+  --text-color: whitesmoke;
+  --font-headers: cursive;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.primary-headers {
+  font-family: var(--font-headers);
+  color: var(--text-color);
+  font-size: 50px;
+  text-shadow: 0 0 5px;
+}
+
+.secondary-headers {
+  font-family: var(--font-headers);
+  color: var(--text-color);
+  font-size: 30px;
+  text-shadow: 0 0 5px;
+}
 /*Header section*/
 header {
-  padding: 30px 200px 75px;
+  padding: 30px 200px 300px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -32,7 +46,8 @@ header h1 a {
   float: right;
   color: whitesmoke;
   text-shadow: 0 0 5px;
-  font-size: 40px;
+  font-size: 60px;
+  font-family: cursive;
 }
 
 header nav ul {
@@ -46,7 +61,8 @@ header nav ul {
 
 header nav ul li a {
   padding: 10px 15px;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: var(--font-headers);
   color: whitesmoke;
   text-shadow: 0 0 50px;
   text-decoration: none;
@@ -54,15 +70,21 @@ header nav ul li a {
 /*End Header Section*/
 /*About Me Section*/
 .about-me {
-  background-color: white;
+  padding: 50px;
+  background-color: rgb(33, 39, 54);
+  text-align: center;
 }
 
 .about-me p {
+  padding: 15px;
+  color: var(--text-color);
+  font-size: 20px;
 }
-
 /*End About Me*/
 
 /*My Work Section*/
 .my-work {
   background-color: black;
 }
+
+.
