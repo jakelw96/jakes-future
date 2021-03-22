@@ -32,9 +32,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
   background-image: url("../images/background.jpg");
+  background-size: 100%;
 }
 
 header nav {
@@ -86,8 +85,14 @@ header nav ul li a {
 .my-work {
   display: flex;
   flex-wrap: wrap;
-  background-color: black;
   text-align: center;
+  background-image: url(../images/background-my-work.jpg);
+  background-size: 100%;
+}
+
+.my-work img {
+  height: 150%;
+  width: 100%;
 }
 
 .my-work h2 {
