@@ -28,7 +28,7 @@ body {
 }
 /*Header section*/
 header {
-  padding: 30px 200px 300px;
+  padding: 30px 200px 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -84,7 +84,31 @@ header nav ul li a {
 
 /*My Work Section*/
 .my-work {
+  display: flex;
+  flex-wrap: wrap;
   background-color: black;
+  text-align: center;
 }
 
-.
+.my-work h2 {
+  padding: 50px 0 50px 830px;
+}
+
+.horiseon img {
+  padding-top: 3%;
+  height: auto;
+  width: 50%;
+}
+
+.run-buddy h3 {
+  padding-top: 5%;
+  padding-left: 54%;
+}
+
+.run-buddy img {
+  padding-top: 3%;
+  padding-right: 5%;
+  float: right;
+  height: auto;
+  width: 40%;
+}
