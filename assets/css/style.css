@@ -160,6 +160,15 @@ footer ul {
   list-style: none;
   text-decoration: none;
 }
+/* end footer */
 
-footer ul li {
+/*Responsiveness for smaller screens */
+
+@media screen (max-width: 980px) {
+}
+
+@media screen (max-width: 768px) {
+}
+
+@media screen (max-width: 575px) {
 }
