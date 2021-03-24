@@ -69,11 +69,17 @@ header nav ul li a {
 /*End Header Section*/
 /*About Me Section*/
 .about-me {
-  padding: 50px;
+  display: flex;
   background-color: rgb(33, 39, 54);
-  text-align: center;
 }
 
+.about-me-header {
+  padding-top: 17px;
+  padding-left: 44px;
+  padding-bottom: 5px;
+  border-top: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
+}
 .about-me p {
   padding: 15px;
   color: var(--text-color);
@@ -85,18 +91,26 @@ header nav ul li a {
 .my-work {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
   background-image: url(../images/background-my-work.jpg);
   background-size: 100%;
 }
 
+.my-work-header {
+  padding: 17px;
+  border-top: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
+  height: 149.5%;
+  position: absolute;
+  background-color: rgb(33, 39, 54);
+}
+
+.projects {
+  text-align: center;
+  padding: 2%;
+}
 .my-work img {
   height: 150%;
   width: 100%;
-}
-
-.my-work h2 {
-  padding: 50px 0 50px 830px;
 }
 
 .horiseon img {
@@ -106,14 +120,46 @@ header nav ul li a {
 }
 
 .run-buddy h3 {
-  padding-top: 5%;
-  padding-left: 54%;
+  padding-top: 8%;
+  padding-left: 58%;
 }
 
 .run-buddy img {
-  padding-top: 3%;
-  padding-right: 5%;
+  padding: 2% 5% 5%;
   float: right;
   height: auto;
   width: 40%;
+}
+/*end my work*/
+
+/*footer section */
+footer {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: black;
+  border-top: 2px solid whitesmoke;
+}
+
+footer h2 {
+  padding-bottom: 2%;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+footer ul {
+  padding-right: 6%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer ul li {
 }
