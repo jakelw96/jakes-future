@@ -164,11 +164,47 @@ footer ul {
 
 /*Responsiveness for smaller screens */
 
-@media screen (max-width: 980px) {
+@media screen and (max-width: 980px) {
+  /* header media q */
+  header {
+    padding-right: 120%;
+    justify-content: center;
+  }
+  header h1 a {
+    font-size: 40px;
+  }
+
+  header nav ul li a {
+    float: left;
+    text-align: center;
+  }
+
+  /*about me media q */
+  .about-me {
+    margin-top: -2%;
+    flex-direction: column;
+  }
+  .about-me p {
+    font-size: 15px;
+    padding-right: 46%;
+  }
+
+  /*my work media q*/
+  .my-work {
+    flex-direction: column;
+  }
+
+  .my-work h2 {
+  }
+
+  .my-work-header {
+    height: 15%;
+    padding-left: 30%;
+  }
 }
 
-@media screen (max-width: 768px) {
+@media screen and (max-width: 768px) {
 }
 
-@media screen (max-width: 575px) {
+@media screen and (max-width: 575px) {
 }
