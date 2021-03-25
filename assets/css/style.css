@@ -28,12 +28,13 @@ body {
 }
 /*Header section*/
 header {
-  padding: 30px 200px 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-image: url("../images/background.jpg");
-  background-size: 100%;
+  background-size: cover;
 }
 
 header nav {
@@ -92,7 +93,7 @@ header nav ul li a {
   display: flex;
   flex-wrap: wrap;
   background-image: url(../images/background-my-work.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .my-work-header {
@@ -207,4 +208,41 @@ footer ul {
 }
 
 @media screen and (max-width: 575px) {
+  header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-wrap: nowrap;
+    margin-left: -120px;
+  }
+  header h1 {
+    margin-left: 800px;
+  }
+
+  header nav ul {
+    margin-left: 200px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .about-me h2 {
+    padding-left: 25%;
+  }
+
+  .my-work {
+  }
+  .paragraph {
+    text-align: center;
+    padding-left: 32%;
+  }
+
+  .my-work-header {
+    width: 100%;
+  }
+
+  .horiseon {
+    padding-top: 20%;
+  }
 }
