@@ -6,7 +6,7 @@
 
 :root {
   --text-color: whitesmoke;
-  --font-headers: cursive;
+  --font-headers: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -47,7 +47,7 @@ header h1 a {
   color: whitesmoke;
   text-shadow: 0 0 5px;
   font-size: 60px;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav ul {
@@ -219,7 +219,6 @@ footer ul {
 
   .my-work-header h2 {
     text-align: left;
-    padding-right: ;
   }
 }
 
@@ -247,10 +246,6 @@ footer ul {
 
   header nav ul li a {
     font-size: 20px;
-  }
-
-  header img {
-    max-width: ;
   }
 
   .about-me-header h2 {
