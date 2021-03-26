@@ -67,6 +67,11 @@ header nav ul li a {
   text-shadow: 0 0 50px;
   text-decoration: none;
 }
+
+header img {
+  max-width: 10%;
+  border: 2px dotted whitesmoke;
+}
 /*End Header Section*/
 /*About Me Section*/
 .about-me {
@@ -78,7 +83,6 @@ header nav ul li a {
   padding-top: 17px;
   padding-left: 44px;
   padding-bottom: 5px;
-  border-top: 2px solid whitesmoke;
   border-right: 2px solid whitesmoke;
 }
 .about-me p {
@@ -170,13 +174,12 @@ footer ul {
   }
 
   header h1 a {
-    padding-right: 155%;
+    padding-right: 130%;
     font-size: 35px;
   }
 
   header nav ul {
     justify-content: center;
-    margin-right: 20%;
     padding-top: 2%;
   }
 
@@ -185,6 +188,9 @@ footer ul {
     text-align: center;
   }
 
+  header img {
+    max-width: 20%;
+  }
   /*about me media q */
   .about-me {
     margin-top: -2%;
@@ -193,13 +199,11 @@ footer ul {
 
   .about-me-header {
     text-align: center;
-    padding-right: 19%;
   }
 
   .about-me p {
+    text-align: center;
     font-size: 15px;
-    padding-right: 45%;
-    padding-left: 30%;
   }
 
   /*my work media q*/
@@ -215,27 +219,58 @@ footer ul {
 
   .my-work-header h2 {
     text-align: left;
-    padding-right: 
+    padding-right: ;
   }
-
-  .horiseon {
-    padding-right: 20%;
-  }
-
-  .run-buddy {
-    padding-right: 20%;
-  }
-
-  .contact-me {
-    padding-right: 18%;
-  }
-
-  .contact-me-header h2 {
-    padding-right: 15%;
 }
 
 @media screen and (max-width: 768px) {
+  header h1 a {
+    padding-right: 30px;
+    padding-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 575px) {
+  .contact-me ul li h3 {
+    font-size: 20px;
+  }
+
+  .contact-me ul li a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  header h1 a {
+    font-size: 25px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  header img {
+    max-width: ;
+  }
+
+  .about-me-header h2 {
+    font-size: 25px;
+    padding-right: 7%;
+  }
+
+  .my-work-header h2 {
+    font-size: 25px;
+  }
+
+  .contact-me ul li h3 {
+    font-size: 15px;
+  }
+
+  .contact-me ul li a {
+    font-size: 18px;
+  }
+
+  .contact-me-header h2 {
+    font-size: 25px;
+  }
 }
