@@ -69,6 +69,7 @@ header nav ul li a {
 }
 
 header img {
+  max-height: auto;
   max-width: 10%;
   border: 2px dotted whitesmoke;
 }
@@ -189,6 +190,7 @@ footer ul {
   }
 
   header img {
+    max-height: auto;
     max-width: 20%;
   }
   /*about me media q */
@@ -246,6 +248,10 @@ footer ul {
 
   header nav ul li a {
     font-size: 20px;
+  }
+
+  header img {
+    max-height: auto;
   }
 
   .about-me-header h2 {
