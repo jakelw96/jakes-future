@@ -98,11 +98,6 @@ header nav ul li a {
 
 .my-work-header {
   padding: 17px;
-  border-top: 2px solid whitesmoke;
-  border-right: 2px solid whitesmoke;
-  height: 149.5%;
-  position: absolute;
-  background-color: rgb(33, 39, 54);
 }
 
 .projects {
@@ -168,15 +163,25 @@ footer ul {
 @media screen and (max-width: 980px) {
   /* header media q */
   header {
-    padding-right: 120%;
+    margin: 0;
+    padding-bottom: 3%;
     justify-content: center;
+    background-image: cover;
   }
+
   header h1 a {
-    font-size: 40px;
+    padding-right: 155%;
+    font-size: 35px;
+  }
+
+  header nav ul {
+    justify-content: center;
+    margin-right: 20%;
+    padding-top: 2%;
   }
 
   header nav ul li a {
-    float: left;
+    font-size: 26px;
     text-align: center;
   }
 
@@ -185,9 +190,16 @@ footer ul {
     margin-top: -2%;
     flex-direction: column;
   }
+
+  .about-me-header {
+    text-align: center;
+    padding-right: 19%;
+  }
+
   .about-me p {
     font-size: 15px;
-    padding-right: 46%;
+    padding-right: 45%;
+    padding-left: 30%;
   }
 
   /*my work media q*/
@@ -195,71 +207,35 @@ footer ul {
     flex-direction: column;
   }
 
-  .my-work h2 {
-  }
-
   .my-work-header {
     height: 15%;
-    padding-left: 30%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  header {
-    padding-left: 30%;
-    flex-wrap: nowrap;
-  }
-
-  header nav ul {
-    padding-left: 200%;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  header {
+    justify-content: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    flex-wrap: nowrap;
-    margin-left: -150px;
-    
-  }
-  header h1 {
-    margin-left: 800px;
   }
 
-  header nav ul {
-    margin-left: 200px;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-  }
-
-  .about-me h2 {
-    padding-left: 25%;
-  }
-
-  .paragraph {
-    text-align: center;
-    padding-left: 32%;
-  }
-
-  .my-work-header {
-    width: 100%;
+  .my-work-header h2 {
+    text-align: left;
+    padding-right: 
   }
 
   .horiseon {
-    padding-top: 20%;
+    padding-right: 20%;
   }
 
-  .contact-me ul li h3 {
-    font-size: 15px;
+  .run-buddy {
+    padding-right: 20%;
   }
 
-  .contact-me ul li a {
-    font-size: 15px;
+  .contact-me {
+    padding-right: 18%;
   }
+
+  .contact-me-header h2 {
+    padding-right: 15%;
 }
 
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 575px) {
 }
