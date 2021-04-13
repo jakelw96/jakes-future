@@ -68,11 +68,6 @@ header nav ul li a {
   text-decoration: none;
 }
 
-header img {
-  max-height: auto;
-  max-width: 10%;
-  border: 2px dotted whitesmoke;
-}
 /*End Header Section*/
 /*About Me Section*/
 .about-me {
@@ -82,7 +77,7 @@ header img {
 
 .about-me-header {
   padding-top: 17px;
-  padding-left: 44px;
+  padding-left: 33px;
   padding-bottom: 5px;
   border-right: 2px solid whitesmoke;
   border-bottom: 2px solid whitesmoke;
@@ -99,7 +94,7 @@ header img {
 /*My Work Section*/
 .my-work {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   background-color: rgb(33, 39, 54);
   background-size: cover;
 }
@@ -127,40 +122,50 @@ header img {
   width: 50%;
 }
 
+.run-buddy {
+  margin-right: 70%;
+}
+
 .run-buddy h3 {
   padding-top: 8%;
-  padding-left: 58%;
+  padding-left: 4%;
 }
 
 .run-buddy img {
   padding: 2% 5% 5%;
   float: right;
   height: auto;
-  width: 40%;
+  width: 100%;
 }
 
 .password-generator h3 {
   padding-top: 8%;
-  padding-left: 58%;
 }
 
 .password-generator img {
   padding: 2% 5% 5% 5%;
-  float: right;
   height: auto;
   width: 40%;
 }
 
 .taskmaster-pro h3 {
-  padding-top: 8%;
-  padding-left: 58%;
+  padding-bottom: 2%;
+  padding-right: 38%;
 }
 
 .taskmaster-pro img {
-  padding: 2% 5% 5% 5%;
-  float: right;
+  padding-right: 40%;
   height: auto;
-  width: 40%;
+  width: 70%;
+}
+
+.weather-quiz {
+  padding-top: 5%;
+}
+.weather-quiz img {
+  padding: 2% 5% 5% 5%;
+  height: auto;
+  width: 50%;
 }
 /*end my work*/
 
