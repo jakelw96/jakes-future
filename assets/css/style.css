@@ -85,11 +85,14 @@ header img {
   padding-left: 44px;
   padding-bottom: 5px;
   border-right: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
 }
 .about-me p {
   padding: 15px;
+  padding-bottom: 5%;
   color: var(--text-color);
   font-size: 20px;
+  border-bottom: 2px solid whitesmoke;
 }
 /*End About Me*/
 
@@ -97,7 +100,7 @@ header img {
 .my-work {
   display: flex;
   flex-wrap: wrap;
-  background-image: url(../images/background-my-work.jpg);
+  background-color: rgb(33, 39, 54);
   background-size: cover;
 }
 
@@ -114,6 +117,10 @@ header img {
   width: 100%;
 }
 
+.horiseon {
+  margin-right: ;
+}
+
 .horiseon img {
   padding-top: 3%;
   height: auto;
@@ -127,6 +134,30 @@ header img {
 
 .run-buddy img {
   padding: 2% 5% 5%;
+  float: right;
+  height: auto;
+  width: 40%;
+}
+
+.password-generator h3 {
+  padding-top: 8%;
+  padding-left: 58%;
+}
+
+.password-generator img {
+  padding: 2% 5% 5% 5%;
+  float: right;
+  height: auto;
+  width: 40%;
+}
+
+.taskmaster-pro h3 {
+  padding-top: 8%;
+  padding-left: 58%;
+}
+
+.taskmaster-pro img {
+  padding: 2% 5% 5% 5%;
   float: right;
   height: auto;
   width: 40%;
